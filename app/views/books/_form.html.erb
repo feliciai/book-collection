@@ -23,7 +23,7 @@
 
   <div class="field">
     <%= form.label :date_of_publication %>
-    <%= form.date_select(start_year: 0) :date_of_publication %>
+    <%= form.date_select(options = { :start_year => 0 }) :date_of_publication %>
   </div>
 
   <div class="field">

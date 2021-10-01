@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/book_app/book_app/spec/feature/integration_spec.rb": {
+      "/book_app/spec/feature/integration_spec.rb": {
         "lines": [
           null,
           null,
@@ -10,15 +10,81 @@
           1,
           1,
           1,
+          null,
           1,
           1,
           1,
           1,
           null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
-      "/book_app/book_app/spec/rails_helper.rb": {
+      "/book_app/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -86,7 +152,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/environment.rb": {
+      "/book_app/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -95,7 +161,7 @@
           1
         ]
       },
-      "/book_app/book_app/config/application.rb": {
+      "/book_app/config/application.rb": {
         "lines": [
           1,
           null,
@@ -121,7 +187,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/boot.rb": {
+      "/book_app/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -129,7 +195,7 @@
           1
         ]
       },
-      "/book_app/book_app/config/environments/test.rb": {
+      "/book_app/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -193,7 +259,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/application_controller_renderer.rb": {
+      "/book_app/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -205,7 +271,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/assets.rb": {
+      "/book_app/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -223,7 +289,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/backtrace_silencers.rb": {
+      "/book_app/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -235,7 +301,7 @@
           1
         ]
       },
-      "/book_app/book_app/config/initializers/content_security_policy.rb": {
+      "/book_app/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -269,7 +335,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/cookies_serializer.rb": {
+      "/book_app/config/initializers/cookies_serializer.rb": {
         "lines": [
           null,
           null,
@@ -278,7 +344,7 @@
           1
         ]
       },
-      "/book_app/book_app/config/initializers/filter_parameter_logging.rb": {
+      "/book_app/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -288,7 +354,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/inflections.rb": {
+      "/book_app/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -308,7 +374,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/mime_types.rb": {
+      "/book_app/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -316,7 +382,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/permissions_policy.rb": {
+      "/book_app/config/initializers/permissions_policy.rb": {
         "lines": [
           null,
           null,
@@ -331,7 +397,7 @@
           null
         ]
       },
-      "/book_app/book_app/config/initializers/wrap_parameters.rb": {
+      "/book_app/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -349,41 +415,9 @@
           null
         ]
       },
-      "/book_app/book_app/config/routes.rb": {
+      "/book_app/config/routes.rb": {
         "lines": [
           1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/book_app/book_app/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/book_app/book_app/app/helpers/books_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/book_app/book_app/spec/unit/unit_spec.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          2,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
           1,
           1,
           1,
@@ -391,28 +425,79 @@
           null
         ]
       },
-      "/book_app/book_app/app/models/book.rb": {
+      "/book_app/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/book_app/app/helpers/books_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/book_app/spec/unit/unit_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/book_app/app/models/book.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/book_app/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/book_app/book_app/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/book_app/book_app/app/controllers/books_controller.rb": {
+      "/book_app/app/controllers/books_controller.rb": {
         "lines": [
           1,
           1,
           null,
           null,
           1,
-          1,
+          8,
           null,
           null,
           null,
@@ -421,7 +506,7 @@
           null,
           null,
           1,
-          1,
+          4,
           null,
           null,
           null,
@@ -430,12 +515,15 @@
           null,
           null,
           1,
-          1,
+          4,
           null,
-          1,
-          1,
-          2,
-          1,
+          4,
+          4,
+          4,
+          4,
+          4,
+          null,
+          4,
           null,
           0,
           0,
@@ -459,32 +547,36 @@
           null,
           1,
           0,
+          null,
+          null,
+          1,
           0,
           0,
           0,
+          0,
           null,
           null,
           null,
           1,
           null,
           1,
-          1,
+          0,
           null,
           null,
           null,
           1,
-          1,
+          4,
           null,
           null
         ]
       },
-      "/book_app/book_app/app/controllers/application_controller.rb": {
+      "/book_app/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
         ]
       }
     },
-    "timestamp": 1631888173
+    "timestamp": 1633058697
   }
 }

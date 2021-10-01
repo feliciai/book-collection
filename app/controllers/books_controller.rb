@@ -1,5 +1,5 @@
 class BooksController < ApplicationController
-  before_action :set_book, only: %i[ show edit update destroy ]
+  before_action :set_book, only: %i[ show edit update delete destroy ]
 
   # GET /books or /books.json
   def index
@@ -25,7 +25,10 @@ class BooksController < ApplicationController
 
     respond_to do |format|
       if @book.save
-        format.html { redirect_to @book, notice: "Book was successfully created." }
+        format.html { 
+          redirect_to '/books'
+          flash[:notice] = "Book was successfully created."
+        }
         format.json { render :show, status: :created, location: @book }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +41,7 @@ class BooksController < ApplicationController
   def update
     respond_to do |format|
       if @book.update(book_params)
-        format.html { redirect_to @book, notice: "Book was successfully updated." }
+        format.html { redirect_to '/books', notice: "Book was successfully updated." }
         format.json { render :show, status: :ok, location: @book }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -48,6 +51,10 @@ class BooksController < ApplicationController
   end
 
   # DELETE /books/1 or /books/1.json
+  def delete
+    @book = Book.find(params[:id])
+  end
+
   def destroy
     @book.destroy
     respond_to do |format|
@@ -64,6 +71,6 @@ class BooksController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def book_params
-      params.require(:book).permit(:title, :author, :date_of_publication, :price)
+      params.require(:book).permit(:title, :author, :dateOfPublication, :price)
     end
 end
